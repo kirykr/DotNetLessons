@@ -11,6 +11,7 @@ public class Post
   public string Title { get; set; }
   [Required]
   public string Content { get; set; }
+
   [DataType(DataType.Date)]
   public DateTime DateCreated { get; set; }
 }

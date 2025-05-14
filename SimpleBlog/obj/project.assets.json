@@ -2419,19 +2419,19 @@
     ]
   },
   "packageFolders": {
-    "/home/kiry/.nuget/packages/": {}
+    "/Users/kiry/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kiry/Documents/DotNetLessions/SimpleBlog/SimpleBlog.csproj",
+      "projectUniqueName": "/Users/kiry/Documents/DotNetProject/SimpleBlog/SimpleBlog.csproj",
       "projectName": "SimpleBlog",
-      "projectPath": "/home/kiry/Documents/DotNetLessions/SimpleBlog/SimpleBlog.csproj",
-      "packagesPath": "/home/kiry/.nuget/packages/",
-      "outputPath": "/home/kiry/Documents/DotNetLessions/SimpleBlog/obj/",
+      "projectPath": "/Users/kiry/Documents/DotNetProject/SimpleBlog/SimpleBlog.csproj",
+      "packagesPath": "/Users/kiry/.nuget/packages/",
+      "outputPath": "/Users/kiry/Documents/DotNetProject/SimpleBlog/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/kiry/.nuget/NuGet/NuGet.Config"
+        "/Users/kiry/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2490,7 +2490,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

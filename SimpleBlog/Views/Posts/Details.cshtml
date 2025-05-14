@@ -1,0 +1,6 @@
+﻿@model SimpleBlog.Models.Post
+<h1>@Model.Title</h1>
+<p>@Model.Content</p>
+<p><strong>Date Created:</strong> @Model.DateCreated.ToShortDateString()</p>
+<a href="/Posts/Edit/@Model.Id" class="btn btn-warning">Edit</a>
+<a href="/Posts" class="btn btn-secondary">Back to List</a>

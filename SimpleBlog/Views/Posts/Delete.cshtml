@@ -1,0 +1,12 @@
+﻿@model SimpleBlog.Models.Post
+<h1>Delete Post</h1>
+<div>
+    <h2>@Model.Title</h2>
+    <p>@Model.Content</p>
+    <p><strong>Date Created:</strong> @Model.DateCreated.ToShortDateString()</p>
+</div>
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+</form>
+<a href="/Posts" class="btn btn-secondary">Back to List</a>

@@ -1,6 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using SimpleBlog.Repositories;
+using SimpleBlog.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<IPostRepository, PostRepository>();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

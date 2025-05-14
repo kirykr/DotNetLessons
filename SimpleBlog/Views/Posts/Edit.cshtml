@@ -1,0 +1,15 @@
+﻿@model SimpleBlog.Models.Post
+<h1>Edit Post</h1>
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label asp-for="Title" class="control-label"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Content" class="control-label"></label> <textarea asp-for="Content"
+            class="form-control"></textarea> <span asp-validation-for="Content" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+<a href="/Posts" class="btn btn-secondary">Back to List</a>
