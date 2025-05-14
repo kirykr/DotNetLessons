@@ -1,0 +1,11 @@
+﻿@model IEnumerable<BookStoreLesson.Models.Book>
+<div class="featured-books">
+    @foreach (var book in Model)
+    {
+        <div class="book">
+            <h3>@book.Title</h3>
+            <p>Author: @book.Author</p>
+            <p>Price: @book.Price</p>
+        </div>
+    }
+</div>
