@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SimpleBlog.Models;
 using SimpleBlog.Repositories;
 using System.Threading.Tasks;
@@ -17,14 +18,29 @@ namespace SimpleBlog.Controllers
             var posts = await _postRepository.GetAllPostsAsync();
             return View(posts);
         }
-        public async Task<IActionResult> Details(int id)
+        public async Task<IActionResult> Recent()
         {
-            var post = await _postRepository.GetPostByIdAsync(id); if (post == null)
+            var posts = await _postRepository.RecentAsync();
+            return View(posts);
+        }
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
             {
                 return NotFound();
             }
+
+            var post = await _postRepository.GetPostByIdAsync(id);
+
+            if (post == null)
+            {
+                return NotFound();
+            }
+
             return View(post);
         }
+
+        // Create Action
         public IActionResult Create()
         {
             return View();
@@ -58,11 +74,26 @@ namespace SimpleBlog.Controllers
             }
             if (ModelState.IsValid)
             {
-                await _postRepository.UpdatePostAsync(post);
+                try
+                {
+                    await _postRepository.UpdatePostAsync(post);
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!await PostExists(post.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
                 return RedirectToAction(nameof(Index));
             }
             return View(post);
         }
+
         public async Task<IActionResult> Delete(int id)
         {
             var post = await _postRepository.GetPostByIdAsync(id); if (post == null)
@@ -77,6 +108,11 @@ namespace SimpleBlog.Controllers
         {
             await _postRepository.DeletePostAsync(id);
             return RedirectToAction(nameof(Index));
+        }
+
+        private async Task<bool> PostExists(int id)
+        {
+            return await _postRepository.PostExistsAsync(id);
         }
 
     }

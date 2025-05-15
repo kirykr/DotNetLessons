@@ -9,9 +9,12 @@ public class Post
   [Required]
   [StringLength(100)]
   public string Title { get; set; }
+
   [Required]
   public string Content { get; set; }
 
   [DataType(DataType.Date)]
   public DateTime DateCreated { get; set; }
+  // public string Description { get; set; }
+
 }

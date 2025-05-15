@@ -1,0 +1,19 @@
+﻿@model IEnumerable<SimpleBlog.Models.User>
+<h1>Users</h1>
+<table class="table">
+    <thead>
+        <tr>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Name</td>
+                <td>@user.Email</td>
+                <td>@user.Age</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/Users/Create" class="btn btn-primary">Create New User</a>

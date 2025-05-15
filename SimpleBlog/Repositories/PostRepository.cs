@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SimpleBlog.Data;
 using SimpleBlog.Models;
@@ -14,11 +15,16 @@ namespace SimpleBlog.Repositories
     }
     public async Task<IEnumerable<Post>> GetAllPostsAsync()
     {
-      return await _context.Posts.ToListAsync();
+      return await _context.Posts.OrderBy(post => post.DateCreated).ToListAsync();
     }
-    public async Task<Post> GetPostByIdAsync(int id)
+    public async Task<IEnumerable<Post>> RecentAsync()
     {
-      return await _context.Posts.FindAsync(id);
+      return await _context.Posts.Where(post => post.DateCreated > DateTime.Now.AddMonths(-1)).ToListAsync();
+    }
+
+    public async Task<Post> GetPostByIdAsync(int? id)
+    {
+      return await _context.Posts.FirstOrDefaultAsync(m => m.Id == id);
     }
     public async Task AddPostAsync(Post post)
     {
@@ -38,5 +44,13 @@ namespace SimpleBlog.Repositories
         await _context.SaveChangesAsync();
       }
     }
+
+    // Generate an async boolean task that method call PostExistsAsync to check if an post exists
+    public async Task<bool> PostExistsAsync(int id)
+    {
+      return await _context.Posts.AnyAsync(e => e.Id == id);
+    }
+
+
   }
 }
