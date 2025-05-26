@@ -1,0 +1,15 @@
+/Users/kiry/Documents/DotNetProject/ListPatternArray/bin/Debug/net8.0/ListPatternArray
+/Users/kiry/Documents/DotNetProject/ListPatternArray/bin/Debug/net8.0/ListPatternArray.deps.json
+/Users/kiry/Documents/DotNetProject/ListPatternArray/bin/Debug/net8.0/ListPatternArray.runtimeconfig.json
+/Users/kiry/Documents/DotNetProject/ListPatternArray/bin/Debug/net8.0/ListPatternArray.dll
+/Users/kiry/Documents/DotNetProject/ListPatternArray/bin/Debug/net8.0/ListPatternArray.pdb
+/Users/kiry/Documents/DotNetProject/ListPatternArray/obj/Debug/net8.0/ListPatternArray.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kiry/Documents/DotNetProject/ListPatternArray/obj/Debug/net8.0/ListPatternArray.AssemblyInfoInputs.cache
+/Users/kiry/Documents/DotNetProject/ListPatternArray/obj/Debug/net8.0/ListPatternArray.AssemblyInfo.cs
+/Users/kiry/Documents/DotNetProject/ListPatternArray/obj/Debug/net8.0/ListPatternArray.csproj.CoreCompileInputs.cache
+/Users/kiry/Documents/DotNetProject/ListPatternArray/obj/Debug/net8.0/ListPatternArray.sourcelink.json
+/Users/kiry/Documents/DotNetProject/ListPatternArray/obj/Debug/net8.0/ListPatternArray.dll
+/Users/kiry/Documents/DotNetProject/ListPatternArray/obj/Debug/net8.0/refint/ListPatternArray.dll
+/Users/kiry/Documents/DotNetProject/ListPatternArray/obj/Debug/net8.0/ListPatternArray.pdb
+/Users/kiry/Documents/DotNetProject/ListPatternArray/obj/Debug/net8.0/ListPatternArray.genruntimeconfig.cache
+/Users/kiry/Documents/DotNetProject/ListPatternArray/obj/Debug/net8.0/ref/ListPatternArray.dll

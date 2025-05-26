@@ -1,0 +1,15 @@
+/Users/kiry/Documents/DotNetProject/SwitchExample/bin/Debug/net8.0/SwitchExample
+/Users/kiry/Documents/DotNetProject/SwitchExample/bin/Debug/net8.0/SwitchExample.deps.json
+/Users/kiry/Documents/DotNetProject/SwitchExample/bin/Debug/net8.0/SwitchExample.runtimeconfig.json
+/Users/kiry/Documents/DotNetProject/SwitchExample/bin/Debug/net8.0/SwitchExample.dll
+/Users/kiry/Documents/DotNetProject/SwitchExample/bin/Debug/net8.0/SwitchExample.pdb
+/Users/kiry/Documents/DotNetProject/SwitchExample/obj/Debug/net8.0/SwitchExample.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kiry/Documents/DotNetProject/SwitchExample/obj/Debug/net8.0/SwitchExample.AssemblyInfoInputs.cache
+/Users/kiry/Documents/DotNetProject/SwitchExample/obj/Debug/net8.0/SwitchExample.AssemblyInfo.cs
+/Users/kiry/Documents/DotNetProject/SwitchExample/obj/Debug/net8.0/SwitchExample.csproj.CoreCompileInputs.cache
+/Users/kiry/Documents/DotNetProject/SwitchExample/obj/Debug/net8.0/SwitchExample.sourcelink.json
+/Users/kiry/Documents/DotNetProject/SwitchExample/obj/Debug/net8.0/SwitchExample.dll
+/Users/kiry/Documents/DotNetProject/SwitchExample/obj/Debug/net8.0/refint/SwitchExample.dll
+/Users/kiry/Documents/DotNetProject/SwitchExample/obj/Debug/net8.0/SwitchExample.pdb
+/Users/kiry/Documents/DotNetProject/SwitchExample/obj/Debug/net8.0/SwitchExample.genruntimeconfig.cache
+/Users/kiry/Documents/DotNetProject/SwitchExample/obj/Debug/net8.0/ref/SwitchExample.dll

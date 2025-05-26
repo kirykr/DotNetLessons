@@ -1,0 +1,15 @@
+/Users/kiry/Documents/DotNetProject/EnumeratorExample/bin/Debug/net8.0/EnumeratorExample
+/Users/kiry/Documents/DotNetProject/EnumeratorExample/bin/Debug/net8.0/EnumeratorExample.deps.json
+/Users/kiry/Documents/DotNetProject/EnumeratorExample/bin/Debug/net8.0/EnumeratorExample.runtimeconfig.json
+/Users/kiry/Documents/DotNetProject/EnumeratorExample/bin/Debug/net8.0/EnumeratorExample.dll
+/Users/kiry/Documents/DotNetProject/EnumeratorExample/bin/Debug/net8.0/EnumeratorExample.pdb
+/Users/kiry/Documents/DotNetProject/EnumeratorExample/obj/Debug/net8.0/EnumeratorExample.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kiry/Documents/DotNetProject/EnumeratorExample/obj/Debug/net8.0/EnumeratorExample.AssemblyInfoInputs.cache
+/Users/kiry/Documents/DotNetProject/EnumeratorExample/obj/Debug/net8.0/EnumeratorExample.AssemblyInfo.cs
+/Users/kiry/Documents/DotNetProject/EnumeratorExample/obj/Debug/net8.0/EnumeratorExample.csproj.CoreCompileInputs.cache
+/Users/kiry/Documents/DotNetProject/EnumeratorExample/obj/Debug/net8.0/EnumeratorExample.sourcelink.json
+/Users/kiry/Documents/DotNetProject/EnumeratorExample/obj/Debug/net8.0/EnumeratorExample.dll
+/Users/kiry/Documents/DotNetProject/EnumeratorExample/obj/Debug/net8.0/refint/EnumeratorExample.dll
+/Users/kiry/Documents/DotNetProject/EnumeratorExample/obj/Debug/net8.0/EnumeratorExample.pdb
+/Users/kiry/Documents/DotNetProject/EnumeratorExample/obj/Debug/net8.0/EnumeratorExample.genruntimeconfig.cache
+/Users/kiry/Documents/DotNetProject/EnumeratorExample/obj/Debug/net8.0/ref/EnumeratorExample.dll
